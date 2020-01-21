@@ -22,7 +22,7 @@ Available on [pouet.net](https://www.pouet.net/prod.php?which=79326)
 
 ## Usage
 
-Open in VS Code and build and then run (Ctrl+F5). Main code in src/xmas2018.s
+Open in VS Code and build and then run (Ctrl+F5). Main code in src/ins-tiny.s
 
 ## Credits
 
