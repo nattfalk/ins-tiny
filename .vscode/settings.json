@@ -1,0 +1,19 @@
+{
+  "amiga-assembly.vasm": {
+    "enabled": true,
+    "file": "bin\\windows_x64\\vasmm68k_mot",
+    "options": [
+      "-m68000",
+      "-Fhunk"
+      //, "-linedebug"
+    ]
+  },
+  "amiga-assembly.vlink": {
+    "enabled": true,
+    "file": "bin\\windows_x64\\vlink",
+    "includes": "**/*.{s,S,asm,ASM}",
+    "excludes": "",
+    "exefilename": "..\\fs-uae\\hd0\\out.exe",
+    "options": ["-bamigahunk", "-Bstatic"]
+  }
+}
